@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}Chef AI | خانه{% endblock title %}
+{% block content %}
+<main>
+<section class="hero">
+<div class="container hero-grid">
+    <div>
+    <h1>با هر موادی که در خانه دارید غذا پیدا کنید</h1>
+    <p>مواد اولیه را وارد کنید و بهترین غذاها را همراه با دستور پخت دریافت کنید.</p>
+    <button class="btn1" onclick="location.href='chef-ai.html'">شروع آشپزی</button>
+</div>
+<div><img class="hero-img" src="{% static "base/images/img1.jpg" %}" alt="pizza"></div>
+</div>
+</section>
+<section class="container">
+<h2>غذاهای محبوب</h2>
+<div class="food-grid">
+<div class="food-card"><img src="{% static "base/images/img1.jpg" %}"><h3>پیتزا</h3></div>
+<div class="food-card"><img src="{% static "base/images/img2.jpg" %}"><h3>برگر</h3></div>
+<div class="food-card"><img src="{% static "base/images/img3.jpg" %}"><h3>استیک</h3></div>
+</div>
+</section>
+</main>
+{% endblock content %}

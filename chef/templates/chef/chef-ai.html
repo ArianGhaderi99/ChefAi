@@ -1,0 +1,30 @@
+{% extends "base/base.html" %}
+{% block title %}Chef AI{% endblock title %}
+
+{% block content %}
+<main>
+    <div class="ai-container">
+
+        <h2>
+            Chef AI
+        </h2>
+
+        <p style="margin-bottom: 0.7rem;">مواد اولیه را وارد کنید: مثلا قارچ, پنیر , پیاز و ... </p>
+        <textarea
+            id="ingredients"
+            rows="6"
+            placeholder="مثال: مرغ، قارچ، پنیر، پیاز">
+        </textarea>
+
+        <button id="generateBtn">
+            پیدا کردن غذاها
+        </button>
+
+        <div id="loading"></div>
+
+        <div id="result"></div>
+
+    </div>
+</main>
+
+{% endblock content %}
