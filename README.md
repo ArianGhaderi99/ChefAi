@@ -25,7 +25,7 @@
 
 ### بخش Chef AI
 
-![Chef AI](YOUR_SCREENSHOT_2_URL)
+![Chef AI](https://github.com/ArianGhaderi99/ChefAi/blob/main/Screenchefai.png)
 
 ---
 
