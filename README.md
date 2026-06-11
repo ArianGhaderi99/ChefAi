@@ -19,7 +19,7 @@
 
 ### صفحه اصلی
 
-![Home Page](YOUR_SCREENSHOT_1_URL)
+![Home Page](https://github.com/ArianGhaderi99/ChefAi/blob/main/Screenhome.png)
 
 ---
 
